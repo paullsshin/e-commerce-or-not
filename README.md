@@ -18,34 +18,34 @@
 
 This application will allow the user to track their employees just a little bit easier
 
-![screenshots](./public/images/Screenshot%202023-04-03%2014.18.45.png)
+![screenshots](./img/Screenshot%202023-04-10%2018.17.30.png)
 
 <hr>
 <br>
 
-![screenshots](./public/images/Screenshot%202023-04-03%2014.18.58.png)
+![screenshots](./img/Screenshot%202023-04-10%2018.17.32.png)
 
 <hr>
 <br>
 
-![screenshots](./public/images/Screenshot%202023-04-03%2014.19.03.png)
+![screenshots](./img/Screenshot%202023-04-10%2018.17.34.png)
 
 <hr>
 <br>
 
-![screenshots](./public/images/Screenshot%202023-04-03%2014.19.08.png)
+![screenshots](./img/Screenshot%202023-04-10%2018.17.40.png)
 
 <hr>
 <br>
 
-![screenshots](./public/images/Screenshot%202023-04-03%2014.19.10.png)
+[Video Walkthrough](https://drive.google.com/file/d/1_w5yPP_GXPgncmH-ZhKqPOKbVcoxzABI/view)
 
 <hr>
 <br>
 
 ### __Installation__ ⚙️
 ​
-To use this program the user will need to do an NPM install and a NPM install for MYSQL2.
+To use this program the user will need to do run a few things in the terminal. The user will need to type "npm i" and then "npm run seed" to install the necessary packages.
 
 <br>
 <hr>
@@ -56,9 +56,10 @@ To use this program the user will need to do an NPM install and a NPM install fo
 
 * To use this application the user will need to open the application and open a terminal window.
 * The user will then do an "npm i' to install the necessary packages
-* The user will also need to do an "npm i mysql2" to install MYSQL.
-* Once both of the installs are finished the user can connect to the terminal and type "node index.js"
-* Once the user user does that, the application will open and they can look through the various options they have.
+* The user will also need to do a "mysql -u root -p" and login to mysql with their password.
+* After that, the user will need to "source schema.sql".
+* Once this is done, the user can run "npm start"
+* The user can open insomnia and input the information that they would like to look at, update, or delete.
 
 <br>
 <hr>
